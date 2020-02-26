@@ -9,8 +9,8 @@
     "**/.DS_Store": true,
     "**/.node_modules": true
   },
-  "window.zoomLevel": 0,
-  "workbench.colorTheme": "Over Night Owl",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Cold Snack",
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
@@ -20,19 +20,19 @@
   },
   "editor.formatOnSave": true,
   "editor.tabCompletion": "on",
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Fira Code Retina, Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
   "workbench.startupEditor": "newUntitledFile",
   "prettier.printWidth": 84,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
-  "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "workbench.colorCustomizations": {
     "[Night Owl]": {
