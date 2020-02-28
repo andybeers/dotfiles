@@ -28,24 +28,19 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 # h -- print file sizes in readable format
 alias ls="ls -GFh"
 
-# Easy navigation
+# Navigation
 alias proj="cd ~/Documents/projects"
-alias kapp="cd ~/Documents/projects/KingKai/king_kai/app"
-alias kser="cd ~/Documents/projects/KingKai/king_kai/server"
-alias profile="code-insiders ~/.bash_profile"
-
-# nano
-export EDITOR=/usr/bin/nano
 
 # mongodb
 export PATH=$PATH:~/mongodb/bin
 alias gomongo="mongod --dbpath ~/mongodb/data"
-
-# GO
-export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
 # Just for Figurine's sweet rainbow text
 export PATH=$PATH:/Applications
 
 # Autocomplete
 test -f ~/.git-completion.bash && . $_
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

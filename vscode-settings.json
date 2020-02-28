@@ -22,17 +22,12 @@
   "editor.tabCompletion": "on",
   "editor.fontFamily": "Fira Code Retina, Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.minimap.enabled": false,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
+  "workbench.startupEditor": "newUntitledFile",
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "prettier.printWidth": 84,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
   "javascript.updateImportsOnFileMove.enabled": "never",
   "workbench.colorCustomizations": {
     "[Night Owl]": {
@@ -42,5 +37,11 @@
       "sideBar.border": "#102a44",
       "sideBar.foreground": "#8BADC1"
     }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
